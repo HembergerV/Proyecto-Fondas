@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans|Yanone+Kaffeesatz);
 @import url(css/menu.css);
 @import url(css/banner.css);
+@import url(css/banner-bottom.css);
 
 *{
     margin: 0px;
@@ -8,10 +9,6 @@
 }
 h1, h2, h3, h4, h5, h6{
     font-family: "Open Sans", arial
-}
-img{
-    display: block;
-    width: 100%;
 }
 body{
     font-family: "Yanone Kaffeesatz", arial
@@ -47,4 +44,8 @@ body{
 }
 .logo span{
     background: rgb(70,210,30);
+}
+
+img{
+    width: 100%
 }

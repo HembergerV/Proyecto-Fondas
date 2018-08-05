@@ -1,0 +1,27 @@
+.banner-bottom .contenedor{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.bb_img{
+    height: 100%;
+}
+
+.bb_item{
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.bb_descript{
+    display: block;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 80%;
+    height: 100px;
+    text-align: center;
+    color: white;
+    font-size: 15px
+}
