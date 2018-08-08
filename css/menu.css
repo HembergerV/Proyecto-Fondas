@@ -1,4 +1,7 @@
-.icon-menu{
+.icon-menu, .icon-facebook{
+    margin: auto 0;
+    line-height: 35px;
+    color: white;
     display: block;
     font-size: 28px;
     background: none;
@@ -6,23 +9,29 @@
     height: 30px;
     text-align: center;
     line-height: 40px;
-    border: 1px solid white;
+    border: none;
+    border-radius: 10%;
     cursor: pointer;
+    z-index: 10000;
 }
 #btn-menu{
     display: none
 }
 #btn-menu:checked ~ .nav{
-    transform: translateX(0%);
+    transform: translateX(2.5%);
+}
+#btn-menu:checked ~ .icon-menu{
+    color: gray
 }
 .nav{
     position: fixed;
     transform: translateX(-100%);
     transition: all 0.3s;
-    top: 40px;
+    top: 20px;
+    padding-top: 40px;
     left: 0px;
-    width: 100%;
-    height: 100vh;
+    width: 95%;
+    height: 350px;
     background: rgba(0,0,0,0.8);
 }
 .menu{
@@ -34,12 +43,12 @@
 }
 .menu_link{
     display: block;
-    left: 0px;
     font-size: 18px;
     color: white;
     text-decoration: none;
     padding: 15px;
     border-bottom: 1px solid rgba(191,191,191,0.7);
+    text-align: center
 }
 .menu_link:hover{
     background: rgba(91,91,91,0.7);

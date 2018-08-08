@@ -1,0 +1,35 @@
+footer{
+    margin-top: 50px;
+    background: rgb(51,51,51);
+    color: white;
+    height: 120px;
+    padding: 15px;
+    text-align: center;
+}
+.social{
+    justify-content: center
+}
+footer [class^="icon-"]{  
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    line-height: 40px;
+    background: rgb(51,51,51);
+    color: white;
+    text-decoration: none;
+    margin: 5px 10px;
+    font-size: 20px;
+    border: none; 
+    transition: all 0.2s
+}
+footer [class^="icon-"]:hover{
+    color: rgb(51,51,51);
+    background: white;
+}
+
+small span{
+    font-family: monospace;
+    font-size: 15px
+    
+}

@@ -2,6 +2,7 @@
 @import url(css/menu.css);
 @import url(css/banner.css);
 @import url(css/banner-bottom.css);
+@import url(css/footer.css);
 
 *{
     margin: 0px;
@@ -14,38 +15,38 @@ body{
     font-family: "Yanone Kaffeesatz", arial
 }
 .header{
+    top: 15px;
     position: fixed;
     height: 40px;
     width: 100%;
-    background: rgba(0,0,0,0.8);
+    background:none;
     z-index: 500;
 }
 .contenedor{
-    width: 99%;
+    width: 95%;
     margin: auto;
 }
 .header .contenedor{
-    width: 97%;
+    width: 95%;
     display: flex;
     justify-content: space-between;
 }
 .frase{
     margin-top: 3px
 }
-.logo, .icon-menu{
+.logo{
     margin: auto 0;
     color: white;
     line-height: 35px
 }
 .logo{
     text-decoration: none;
-    border: 1px solid white;
+    border: 1px none white;
     padding: 0 5px;
 }
 .logo span{
-    background: rgb(70,210,30);
+    background: rgb(50,190,110);
 }
-
 img{
     width: 100%
 }

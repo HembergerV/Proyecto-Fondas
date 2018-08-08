@@ -6,22 +6,26 @@
 
 .bb_img{
     height: 100%;
+    filter:brightness(80%)
 }
 
 .bb_item{
     position: relative;
     margin-bottom: 0px;
+    max-height: 200px
 }
-
 .bb_descript{
     display: block;
     position: absolute;
-    top: 55%;
-    left: 50%;
+    top: 50%;
+    left: 70%;
     transform: translateX(-50%) translateY(-50%);
-    width: 80%;
+    width: 50%;
     height: 100px;
     text-align: center;
     color: white;
-    font-size: 15px
+    font-size: 20px
+}
+.phrase_bbanner{
+    font-size: 18px
 }
