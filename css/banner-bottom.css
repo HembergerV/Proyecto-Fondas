@@ -17,7 +17,7 @@
 }
 .bb_item:hover [class^="icon-"]{
     color: rgb(31,31,31);
-    background: RGB(50, 205, 50);
+    background: RGBa(50, 205, 50,.8);
     transition: all .4s
 }
 .bb_descript{

@@ -2,6 +2,7 @@
     display: flex;
     margin: auto auto 40px;
     width: 90%;
+    max-width: 310px;
     flex-wrap: wrap;
 }
 .title_blogpost{
